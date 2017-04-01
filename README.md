@@ -8,6 +8,6 @@ $ mkdir -p eg-directory/eg-directory
 $ gvc eg-component-name eg-directory/eg-directory
 ```
 
-Gives you:
+Assumes you're using `vuex` and `async` vuejs actions, gives you:
 
 ![Screenshot](hint-2.png)
