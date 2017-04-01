@@ -1,0 +1,32 @@
+{
+  "name": "@brn/gvc",
+  "version": "0.2.0",
+  "description": "generate a vuejs single file component from the command line with nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brngdsn/generate-vue-component-cli.git"
+  },
+  "author": "brn.gdsn@gmail.com",
+  "license": "MIT",
+  "bin": {
+    "gvc": "bin/gvc.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/brngdsn/generate-vue-component-cli/issues"
+  },
+  "homepage": "https://github.com/brngdsn/generate-vue-component-cli#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generate",
+    "vuejs",
+    "single",
+    "file",
+    "component"
+  ]
+}
