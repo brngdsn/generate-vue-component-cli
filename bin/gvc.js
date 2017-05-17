@@ -25,8 +25,11 @@ console.log(chalk.gray.bgMagenta.bold('componentSlugName:'),chalk.underline.mage
 console.log(chalk.gray.bgCyan.bold('componentDirectory:'),chalk.underline.cyan.bold(componentDirectory))
 
 let template = `<template><div class="${componentSlugName}">
+
   ${componentSlugName}
+
 </div></template>
+
 <script>
   import { mapGetters, mapActions } from 'vuex'
   export default {
@@ -59,6 +62,7 @@ let template = `<template><div class="${componentSlugName}">
     }
   }
 </script>
+
 <style scoped>
   .${componentSlugName} {
 
